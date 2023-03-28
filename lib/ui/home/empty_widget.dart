@@ -54,14 +54,7 @@ class EmptyWidget extends StatelessWidget {
                   const SizedBox(
                     height: 50,
                   ),
-                  RaisedButton(
-                    color: Colors.white,
-                    elevation: 0,
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(
-                        15.0,
-                      ),
-                    ),
+                  OutlinedButton(
                     child: Text('Agregar ciudad'),
                     onPressed: onTap,
                   ),
